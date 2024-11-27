@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitation</title>
+    <style>
+        /* Import Custom Font */
+        @font-face {
+            font-family: 'Goodfish';
+            src: url('goodfish.ttf') format('truetype');
+        }
+
+        /* Basic Reset */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Goodfish', sans-serif; /* Use 'Goodfish' or fallback */
+            background-color: #C9A66B; /* Yellow background */
+        }
+
+        /* Center the invitation text */
+        .centered-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 35vh;
+            font-size: 48px;
+            color: #1E434C;
+            background-color: #EBDCB2;
+            text-align: center;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        
+        /* Video container */
+        .video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #EBDCB2;
+           
+            width: 80%;
+        }
+
+        
+        
+        
+        /* Style for the additional text */
+        .sub-text {
+            font-family: 'Goodfish', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: #1E434C;
+            background-color: #EBDCB2;
+            text-align: center;
+            font-weight: normal;
+            margin: 40px auto;
+            padding: 40px;
+            border-radius: 30px;
+            width: 80%; /* Adjust width for better centering */
+        }
+
+        /* Image container */
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            background-color: #C9A66B; /* Light yellow background */
+           
+            padding: 0; /* Remove padding to stick the border to the image */
+        }
+
+        .image-container img {
+            width: 300px; /* Adjust image width */
+            height: auto;
+            display: block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Invitation Title -->
+    <div class="centered-text">
+        Invitație
+    </div>
+
+    <!-- Additional text message -->
+    <div class="sub-text">
+        1. Domnilor și doamnelor, <br>
+        Aveți deosebita plăcere de a fi invitați la Balul Bobocilor 2024, <br>
+        organizat de către elevii claselor a X-a.
+    </div>
+
+    <div class="sub-text">
+        Haideți să sărbătorim împreună pe data de 29 noiembrie 2024, începând cu ora 17:30 acest eveniment special. <br>
+        Veți avea parte de o seară de neuitat, plină de dans, muzică și momente emoționante.
+    </div>
+
+    
+    <div class="video-container">
+    <video width="400" controls>
+        <source src="copy_B3EB2075-4CBA-4C7D-AFAC-696E0F8DEBC6" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- Image Section -->
+    <div class="image-container">
+        <img src="file.png" alt="Invitation Image" />
+    </div>
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>
